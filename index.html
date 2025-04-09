@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe - Single Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="board" id="board"></div>
+    <div class="status" id="status">Player X's turn</div>
+    <button class="new-game-btn" onclick="resetGame()">🎮 New Game</button>
+  </div>
+
+  <!-- Created by link -->
+  <footer>
+    <p>Created by <a href="https://pehesara-technic-sl.blogspot.com" target="_blank">Pehesara Technic</a></p>
+  </footer>
+  <!-- Sound effects -->
+  <audio id="move-sound" src="move.mp3"></audio>
+  <audio id="win-sound" src="win.mp3"></audio>
+  <audio id="draw-sound" src="draw.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
